@@ -1,0 +1,23 @@
+{
+  "name": "buycoins-challenge",
+  "version": "1.0.0",
+  "description": "BuyCoins graphQL api challange",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev-start": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "author": "Mayowa Ojo",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^14.5.3",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "dotenv": "^8.1.0",
+    "nodemon": "^1.19.1"
+  }
+}
