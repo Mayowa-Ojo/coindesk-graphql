@@ -12,7 +12,6 @@ const { PORT, NODE_ENV } = process.env;
 
 app.get('/', async (req, res) => {
   res.send('Graphql api challenge')
-  log(data);
 })
 
 /** GraphQL Route */
