@@ -8,6 +8,7 @@ const { log } = console;
  * @constructor
  * @param {string} type - specify either 'buy' or 'sell'
  * @param {string} margin - percentage used for calculation
+ * @param {Number} exchangeRate - custom USD/NGN exchange rate. Defaults to 360
  */
 
 // create a class to handle all queries
