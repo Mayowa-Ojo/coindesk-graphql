@@ -27,7 +27,7 @@ const rootQueryType = new GraphQLObjectType({
   fields: () => ({
     calculatePrice: {
       type: priceType,
-      description: "Retrieve the current buying/selling price of Bitcoin",
+      description: "Retrieve the current buying/selling price of Bitcoin in NGN",
       args: {
         type: { type: GraphQLNonNull(GraphQLString) },
         margin: { type: GraphQLNonNull(GraphQLString) },

@@ -1,7 +1,9 @@
-const express = require('express');
-const path = require('path');
-const env = require('dotenv');
+const env            = require('dotenv');
+const path           = require('path');
+const express        = require('express');
 const expressGraphQL = require('express-graphql');
+
+/** Relative imports */
 const { schema } = require('./schema');
 
 const app = express();

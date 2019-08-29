@@ -46,7 +46,7 @@ class BitcoinPrice {
       const computedPrice = this.state.rate - computedMargin;
       const priceInNGN = computedPrice * this.exchangeRate;
       this.state.currentPrice = priceInNGN;
-    }
+    } else this.state.currentPrice = null;
   }
 
   async getPrice() {

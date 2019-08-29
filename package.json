@@ -4,7 +4,7 @@
   "description": "BuyCoins graphQL api challange",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha \"./test/**/*.js\"",
     "dev-start": "nodemon server.js",
     "start": "node server.js"
   },
@@ -19,6 +19,9 @@
     "node-fetch": "^2.6.0"
   },
   "devDependencies": {
+    "chai": "^4.2.0",
+    "easygraphql-tester": "^5.1.6",
+    "mocha": "^6.2.0",
     "nodemon": "^1.19.1"
   }
 }
